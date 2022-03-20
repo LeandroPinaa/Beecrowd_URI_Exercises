@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+char GOT[]="LIFE IS NOT A PROBLEM TO BE SOLVED";
+int N,a=0;
+scanf("%d",&N);
+while(a<N){
+	printf("%c",GOT[a]);
+	a++;
+}
+printf("\n");
+	return 0;
+}

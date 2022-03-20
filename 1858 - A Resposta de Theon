@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(){
+int N,a,X,Y=0,i=1;
+scanf("%d",&N);
+int v[N];
+for(a=0;a<N;a++)
+    scanf("%d",&v[a]);
+X=v[0];
+for(a=0;a<N;a++){
+    if(v[a]<X){
+        X=v[a];
+        i=a+1;
+    }
+}
+printf("%d\n",i);
+    return 0;
+}
